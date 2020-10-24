@@ -1,4 +1,4 @@
-# SpaceX Booking App
+# SpaceX Launch Reservation App
 
 This is an interactive app for reserving a seat on an upcoming SpaceX launch.  🚀
 
@@ -12,7 +12,7 @@ The app includes the following views:
 - A user profile page
 - A cart
 
-To populate these views, the app's data graph will connect to two data sources: a REST API and a SQLite database.
+To populate these views, the app's data graph will connect to two data sources: a REST API (from SpaceX) and a SQLite database (this is because the SpaceX API is a read-only data source for fetching launch data, so we also need a writable data source that allows us to store application data, such as user identities and seat reservations).
 
 Here's what the finished app will look like:
 
