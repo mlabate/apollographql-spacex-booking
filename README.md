@@ -1,9 +1,7 @@
 # SpaceX Booking App
 
 This is an interactive app for reserving a seat on an upcoming SpaceX launch.  🚀
-
-Think of it as an Airbnb for space travel! All of the data is real, thanks to the [SpaceX-API](https://github.com/r-spacex/SpaceX-API)
-.
+Think of it as an Airbnb for space travel! All of the data is real, thanks to the [SpaceX-API](https://github.com/r-spacex/SpaceX-API){:target="_blank"}.
 
 The app includes the following views:
 
