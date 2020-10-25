@@ -18,25 +18,23 @@ Here's what the finished app will look like:
 
 ![Alt text](space-explorer.png "Space Explorer")
 
-<!-- 
 ## File structure
 
 The app is split out into two folders:
-- `start`: Starting point for the tutorial
-- `final`: Final version
 
-From within the `start` and `final` directories, there are two folders (one for `server` and one for `client`). -->
+- `client`: ...
+- `server`: ...
 
 ## Installation
 
 To run the app, run these commands in two separate terminal windows from the root:
 
 ```bash
-cd final/server && npm i && npm start
+cd server && npm i && npm start
 ```
 
 and
 
 ```bash
-cd final/client && npm i && npm start
+cd client && npm i && npm start
 ```
