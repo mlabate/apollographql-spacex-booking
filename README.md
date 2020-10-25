@@ -47,3 +47,6 @@ and
 ```bash
 cd client && npm i && npm start
 ```
+
+
+Server will bel available on [http://localhost:4000/](http://localhost:4000/) and client on [http://localhost:3000](http://localhost:3000/).
