@@ -1,6 +1,6 @@
 # SpaceX Launch Reservation App
 
-This is an interactive app for reserving a seat on an upcoming SpaceX launch.  🚀
+This is an interactive full-stack, GraphQL-powered app with the Apollo platform, for reserving a seat on an upcoming SpaceX launch.  🚀
 
 Think of it as an Airbnb for space travel! All of the data is real, thanks to the [SpaceX-API](https://github.com/r-spacex/SpaceX-API).
 
@@ -16,14 +16,23 @@ To populate these views, the app's data graph will connect to two data sources: 
 
 Here's what the finished app will look like:
 
-![Alt text](space-explorer.png "Space Explorer")
+![Alt text](space-explorer1.png "Space Explorer - Login")
+![Alt text](space-explorer2.png "Space Explorer - List")
 
-## File structure
+## System requirements
 
-The app is split out into two folders:
+- [Node.js](https://nodejs.org/) v8.x or later
+- [npm](https://www.npmjs.com/) v6.x or later
+- [git](https://git-scm.com/) v2.14.1 or later
 
-- `client`: ...
-- `server`: ...
+Although it isn't required, it's also recommend using [VS Code](https://code.visualstudio.com/) as your editor so you can use Apollo's helpful VS Code extension.
+
+## App structure
+
+The app is split out into two parts:
+
+- `server`: The application backend, which uses Apollo Server to build a GraphQL server
+- `client`: The application frontend, which uses Apollo Client to communicate with the backend
 
 ## Installation
 
