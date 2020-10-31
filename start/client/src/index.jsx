@@ -8,7 +8,10 @@ import injectStyles from "./styles";
 // Initialize ApolloClient
 const client = new ApolloClient({
   cache,
-  uri: "http://localhost:4000/graphql"
+  uri: "http://localhost:4000/graphql",
+  headers: {
+    authorization: localStorage.getItem("token") || ""
+  }
 });
 
 injectStyles();
