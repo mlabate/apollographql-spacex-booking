@@ -1,4 +1,4 @@
-# SpaceX Launch Reservation App
+# SpaceX Seat Reservation App
 
 This is an interactive full-stack, GraphQL-powered app with the Apollo platform, for reserving a seat on an upcoming SpaceX launch.  🚀
 
@@ -48,5 +48,4 @@ and
 cd client && npm i && npm start
 ```
 
-
-Server will bel available on [http://localhost:4000/](http://localhost:4000/) and client on [http://localhost:3000](http://localhost:3000/).
+Server will be available on [http://localhost:4000](http://localhost:4000/) and client on [http://localhost:3000](http://localhost:3000/).
